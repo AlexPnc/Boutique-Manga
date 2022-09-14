@@ -1,0 +1,43 @@
+.artMain{
+    display: flex;
+    justify-content: center;
+}
+.containerArt{
+    display: flex;
+    /* gap: 2rem; */
+    border: 0.2rem solid black;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+.imgArt img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.imgArt{
+    width: 50%;
+}
+.textArt{
+    width: 25%;
+}
+.titleTextArt{
+    font-size: 1.5rem;
+    color: red;
+}
+
+.descTextArt{
+    font-style: italic;
+}
+
+@media screen and (max-width: 1100px) {
+   .containerArt{
+        flex-direction: column;
+   }
+   .textArt{
+    width: 60%;
+    }
+    .imgArt{
+        width: 50%;
+        margin-top: 1rem;
+    }
+}
