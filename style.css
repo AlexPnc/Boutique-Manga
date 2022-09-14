@@ -1,3 +1,5 @@
+/* Page d'accueil */
+
 header {
     margin: 5px 60px 5px 20px;
     display: flex;
@@ -20,6 +22,25 @@ header {
     border: 2px solid  rgb(98, 14, 140);
     padding: 5px;
 }
+
+.homeProduct {
+    margin: 120px auto;
+    display: flex;
+}
+
+.p1 {
+    width: 200px;
+    height: 200px;
+    background-image: url(/img/kny.jpg);
+    background-size: cover;
+}
+
+/* .imgHome {
+    width: 100px;
+    
+} */
+
+/* Pages produits */
 
 .artMain{
     display: flex;
