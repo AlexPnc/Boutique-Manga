@@ -1,14 +1,28 @@
 /* Page d'accueil */
 
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
 header {
-    margin: 5px 60px 5px 20px;
     display: flex;
     justify-content: space-between;
+    background-color: black;
+    padding: 30px;
+}
+
+footer {
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
 }
 
 .logo {
     font-size: 30px;
-    color: rgb(98, 14, 140);
+    color: white;
 }
 
 .formulaires {
@@ -18,23 +32,43 @@ header {
 .connexion,.inscription {
     margin-left: 15px;
     text-decoration: none;
-    color: rgb(98, 14, 140);
-    border: 2px solid  rgb(98, 14, 140);
+    color: white;
+    border: 2px solid  white;
     padding: 5px;
 }
 
-.homeProduct {
-    margin: 120px auto;
+a {
+    text-decoration: none;
+}
+
+main {
+    margin: 100px 20px;
     display: flex;
+    justify-content: space-around;
 }
 
 .p1 {
-    width: 200px;
-    height: 200px;
-    background-image: url(/img/kny.jpg);
-    background-size: cover;
+    width: 250px;
+    height: 350px;
+}
+.p2 {
+    width: 300px;
+    height: 350px;
+}
+.p3 {
+    width: 350px;
+    height: 350px;
 }
 
+.linkFooter a {
+    text-decoration: underline;
+    color: white;
+}
+
+.link {
+    margin-left: 15px;
+
+}
 /* .imgHome {
     width: 100px;
     
